@@ -1,0 +1,22 @@
+connectors:
+  matrix:
+    mxid: "@bot_spelling_correction:bot.parsi.ai"
+    password: "Group1@nlp"
+    rooms:
+      'main': '#samplebot:bot.parsi.ai'
+    homeserver: "https://bot.parsi.ai"
+    nick: "bot_spelling_correction"
+
+skills:
+  tooti:
+    path: test.py
+
+# databases:
+#   mongo:
+#     host:                       "my_host"         # (optional) default "localhost"
+#     port:                       "12345"           # (optional) default "27017"
+#     database:                   "my_database"     # (optional) default "opsdroid"
+#     protocol:                   "mongodb://"      # (optional) default "mongodb://"
+#     collection:                 "my_collection"   # (optional) default "opsdroid"
+#     user:                       "my_user"         # (optional)
+#     password:                   "pwd123!"         # (optional)
